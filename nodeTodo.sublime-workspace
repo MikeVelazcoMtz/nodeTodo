@@ -1,0 +1,930 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"book",
+				"books"
+			],
+			[
+				"exp",
+				"express"
+			],
+			[
+				"ex",
+				"expose"
+			],
+			[
+				"categ",
+				"categoría"
+			],
+			[
+				"ou",
+				"outcomesByDay"
+			],
+			[
+				"bar",
+				"barChart"
+			],
+			[
+				"move",
+				"movementColors"
+			],
+			[
+				"objec",
+				"objectValues"
+			],
+			[
+				"forma",
+				"formatedData"
+			],
+			[
+				"movem",
+				"movements"
+			],
+			[
+				"obe",
+				"objectValues"
+			],
+			[
+				"movemen",
+				"movementColors"
+			],
+			[
+				"incomes",
+				"incomesByDay"
+			],
+			[
+				"spend",
+				"spendingsByDay"
+			],
+			[
+				"creati",
+				"creation_timestamp"
+			],
+			[
+				"m",
+				"movements"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"item_",
+				"item_keys"
+			],
+			[
+				"wee",
+				"week_format\tstatement"
+			],
+			[
+				"spen",
+				"spendings"
+			],
+			[
+				"MovementDay",
+				"MovementDayArchiveView\tclass"
+			],
+			[
+				"all",
+				"allow_future\tstatement"
+			],
+			[
+				"Arch",
+				"MovementTodatArchiveView"
+			],
+			[
+				"id",
+				"id_concept_id"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"actua",
+				"actual_amount"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"tr",
+				"tr\tTag"
+			],
+			[
+				"mo",
+				"movementColors"
+			],
+			[
+				"obej",
+				"objectKeys"
+			],
+			[
+				"inc",
+				"incomeData"
+			],
+			[
+				"pie",
+				"pieChart"
+			],
+			[
+				"obj",
+				"objectValues"
+			],
+			[
+				"ob",
+				"objectKeys"
+			],
+			[
+				"dat",
+				"datasets"
+			],
+			[
+				"rand",
+				"randomColor"
+			],
+			[
+				"ran",
+				"randomColor"
+			],
+			[
+				"perso",
+				"personalFinance"
+			],
+			[
+				"sw",
+				"showAlert"
+			],
+			[
+				"E",
+				"Editar"
+			],
+			[
+				"Conc",
+				"Concepto"
+			],
+			[
+				"ne",
+				"new_movement"
+			],
+			[
+				"ver",
+				"verbose_name"
+			],
+			[
+				"spendin",
+				"spendingLabel"
+			],
+			[
+				"s",
+				"spendingData"
+			],
+			[
+				"in",
+				"incomesLabels"
+			],
+			[
+				"contex",
+				"context\tstatement"
+			],
+			[
+				"Cat",
+				"CategoryForm\tclass"
+			],
+			[
+				"concept",
+				"concept_id"
+			],
+			[
+				"M",
+				"MOVEMENTS_CHOICES\tstatement"
+			],
+			[
+				"In",
+				"INCOME\tstatement"
+			],
+			[
+				"movement",
+				"movement_type"
+			],
+			[
+				"path",
+				"path_r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 407.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"nnew",
+				"ANF: New File"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prewv",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"Git",
+				"Git: Status"
+			],
+			[
+				"Code Fol",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git: co",
+				"Git: Commit"
+			],
+			[
+				"git: sta",
+				"Git: Status"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"GitX: Open GitX"
+			],
+			[
+				"gett",
+				"Set Syntax: gettext"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python (Django)"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"lintt",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"theme",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			]
+		],
+		"width": 390.0
+	},
+	"console":
+	{
+		"height": 190.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/miguelangel/docker/nodeTodo"
+	],
+	"file_history":
+	[
+		"/home/miguelangel/docker/nodeTodo/nodeTodo.sublime-project",
+		"/home/miguelangel/docker/react-start/index.js",
+		"/home/miguelangel/docker/react-start/src/indes.js",
+		"/home/miguelangel/docker/react-start/src/index.css",
+		"/home/miguelangel/docker/react-start/src/App.js",
+		"/home/miguelangel/docker/nodePluralSight/docker-compose.yml",
+		"/home/miguelangel/docker/nodePluralSight/library/app.js",
+		"/home/miguelangel/docker/nodePluralSight/library/src/routes/adminRoutes.js",
+		"/home/miguelangel/docker/nodePluralSight/library/src/routes/bookRoutes.js",
+		"/home/miguelangel/docker/nodePluralSight/.gitignore",
+		"/home/miguelangel/docker/nodePluralSight/README.md",
+		"/home/miguelangel/docker/nodePluralSight/library/src/routes/authorRoutes.js",
+		"/home/miguelangel/docker/nodePluralSight/library/src/views/book.ejs",
+		"/home/miguelangel/docker/nodePluralSight/library/src/views/books.ejs",
+		"/home/miguelangel/docker/nodePluralSight/library/src/views/index.ejs",
+		"/home/miguelangel/docker/nodePluralSight/library/package.json",
+		"/home/miguelangel/docker/nodePluralSight/Dockerfile",
+		"/home/miguelangel/docker/nodePluralSight/library/src/views/index.hbs",
+		"/home/miguelangel/docker/nodePluralSight/library/src/views/index.html",
+		"/home/miguelangel/docker/nodePluralSight/library/bower.json",
+		"/home/miguelangel/docker/nodePluralSight/bower.json",
+		"/home/miguelangel/docker/nodePluralSight/library/.bowerrc",
+		"/home/miguelangel/docker/miweb/Dockerfile",
+		"/home/miguelangel/django-apps/personalFinance/docker/miweb/Dockerfile",
+		"/home/miguelangel/django-apps/personalFinance/locale/es/LC_MESSAGES/django.po",
+		"/home/miguelangel/django-apps/personalFinance/static/app/js/reports/week.js",
+		"/home/miguelangel/django-apps/personalFinance/app/views.py",
+		"/home/miguelangel/django-apps/personalFinance/templates/reports/week.html",
+		"/home/miguelangel/django-apps/personalFinance/app/urls.py",
+		"/home/miguelangel/django-apps/personalFinance/templates/_common/navbar.html",
+		"/home/miguelangel/django-apps/personalFinance/locale/en/LC_MESSAGES/django.po",
+		"/home/miguelangel/django-apps/personalFinance/templates/reports/today.html",
+		"/home/miguelangel/django-apps/personalFinance/app/templatetags.py",
+		"/home/miguelangel/.config/sublime-text-3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/home/miguelangel/django-apps/personalFinance/app/encoders.py",
+		"/home/miguelangel/django-apps/personalFinance/templates/movements/new.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/movements/edit.html",
+		"/home/miguelangel/django-apps/personalFinance/app/models.py",
+		"/home/miguelangel/django-apps/personalFinance/static/app/js/movements/new.js",
+		"/home/miguelangel/django-apps/personalFinance/static/app/js/movements/edit.js",
+		"/home/miguelangel/django-apps/personalFinance/static/js/movements/edit.js",
+		"/home/miguelangel/django-apps/personalFinance/app/mixins.py",
+		"/home/miguelangel/django-apps/personalFinance/templates/home.html",
+		"/home/miguelangel/django-apps/personalFinance/static/js/movements/new.js",
+		"/home/miguelangel/django-apps/personalFinance/static/app/js/accounts/list.js",
+		"/home/miguelangel/django-apps/personalFinance/.gitignore",
+		"/home/miguelangel/django-apps/personalFinance/personalFinance/settings.py",
+		"/home/miguelangel/django-apps/personalFinance/static/app/js/reports/today.js",
+		"/home/miguelangel/django-apps/personalFinance/app/forms.py",
+		"/home/miguelangel/django-apps/personalFinance/docs/conf.py",
+		"/home/miguelangel/django-apps/personalFinance/docs/modules/models.rst",
+		"/home/miguelangel/django-apps/personalFinance/docs/index.rst",
+		"/home/miguelangel/django-apps/personalFinance/conf.py",
+		"/home/miguelangel/django-apps/personalFinance/locale/es/LC_MESSAGES/djangojs.po",
+		"/home/miguelangel/django-apps/personalFinance/locale/en/LC_MESSAGES/djangojs.po",
+		"/home/miguelangel/django-apps/personalFinance/templates/base.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/accounts/new.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/accounts/list.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/categories/new.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/concepts/new.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/concepts/edit.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/categories/list.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/categories/edit.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/accounts/edit.html",
+		"/home/miguelangel/django-apps/personalFinance/templates/login.html",
+		"/home/miguelangel/.config/sublime-text-3/Packages/PyV8/linux64-p3/config.json",
+		"/home/miguelangel/django-apps/personalFinance/static/app/js/categories/list.js",
+		"/home/miguelangel/django-apps/personalFinance/static/app/css/categories/list.css",
+		"/home/miguelangel/django-apps/dev/lib/python3.5/site-packages/crispy_forms/layout.py",
+		"/home/miguelangel/django-apps/dev/lib/python3.5/site-packages/crispy_forms/helper.py",
+		"/home/miguelangel/django-apps/personalFinance/static/app/js/home.js",
+		"/home/miguelangel/django-apps/personalFinance/static/app/css/base.css",
+		"/home/miguelangel/django-apps/personalFinance/static/app/css/home.css",
+		"/home/miguelangel/.cache/.fr-F4LIf0/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.css",
+		"/home/miguelangel/.cache/.fr-ie8Csy/fontawesome-free-5.0.6/README.md",
+		"/home/miguelangel/.config/sublime-text-3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/home/miguelangel/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/home/miguelangel/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/miguelangel/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/miguelangel/django-apps/personalFinance/personalFinance/urls.py",
+		"/home/miguelangel/.ssh/bitbucket_rsa.pub",
+		"/home/miguelangel/django-apps/personalFinance/README.md",
+		"/home/miguelangel/django-apps/personalFinance/app/validators.py",
+		"/home/miguelangel/django-apps/testsite/blog/views.py",
+		"/home/miguelangel/django-apps/testsite/.gitignore",
+		"/home/miguelangel/django-apps/testsite/blog/models.py",
+		"/home/miguelangel/django-apps/testsite/blog/urls.py",
+		"/home/miguelangel/django-apps/testsite/blog/forms.py",
+		"/home/miguelangel/django-apps/testsite/templates/movements/edit.html",
+		"/home/miguelangel/django-apps/testsite/blog/validators.py",
+		"/home/miguelangel/django-apps/testsite/polls/models.py",
+		"/home/miguelangel/django-apps/testsite/polls/views.py",
+		"/home/miguelangel/django-apps/testsite/templates/home.html",
+		"/home/miguelangel/django-apps/testsite/templates/movements/new.html",
+		"/home/miguelangel/django-apps/testsite/templates/categories/list.html",
+		"/home/miguelangel/django-apps/testsite/templates/categories/edit.html",
+		"/home/miguelangel/django-apps/testsite/templates/concepts/edit.html",
+		"/home/miguelangel/django-apps/testsite/testsite/urls.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 152.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 152.0
+	},
+	"output.exec":
+	{
+		"height": 152.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 692.0
+	},
+	"output.nodejs":
+	{
+		"height": 152.0
+	},
+	"pinned_build_system": "Packages/Nodejs/Nodejs.sublime-build",
+	"project": "nodeTodo.sublime-project",
+	"replace":
+	{
+		"height": 65.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ad",
+				"library/src/routes/adminRoutes.js"
+			],
+			[
+				"r",
+				"README.md"
+			],
+			[
+				".",
+				".gitignore"
+			],
+			[
+				"app",
+				"library/app.js"
+			],
+			[
+				"docker-",
+				"docker-compose.yml"
+			],
+			[
+				"inde",
+				"library/src/views/index.ejs"
+			],
+			[
+				"pa",
+				"library/package.json"
+			],
+			[
+				"ap",
+				"library/app.js"
+			],
+			[
+				"in",
+				"library/src/views/index.ejs"
+			],
+			[
+				"index",
+				"library/src/views/index.html"
+			],
+			[
+				"ind",
+				"library/src/views/index.hbs"
+			],
+			[
+				"a",
+				"library/app.js"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"bow",
+				"library/bower.json"
+			],
+			[
+				"doc",
+				"Dockerfile"
+			],
+			[
+				"do",
+				"Dockerfile"
+			],
+			[
+				"aa",
+				"library/app.js"
+			],
+			[
+				"dock",
+				"Dockerfile"
+			],
+			[
+				"",
+				"docker-compose.yml"
+			],
+			[
+				"django.po",
+				"locale/es/LC_MESSAGES/django.po"
+			],
+			[
+				"wee",
+				"static/app/js/reports/week.js"
+			],
+			[
+				"we",
+				"templates/reports/week.html"
+			],
+			[
+				"djan",
+				"locale/es/LC_MESSAGES/django.po"
+			],
+			[
+				"django",
+				"locale/en/LC_MESSAGES/django.po"
+			],
+			[
+				"dj",
+				"locale/es/LC_MESSAGES/django.po"
+			],
+			[
+				"ur",
+				"app/urls.py"
+			],
+			[
+				"toda",
+				"templates/reports/today.html"
+			],
+			[
+				"view",
+				"app/views.py"
+			],
+			[
+				"dja",
+				"locale/es/LC_MESSAGES/django.po"
+			],
+			[
+				"edit.js",
+				"static/app/js/movements/edit.js"
+			],
+			[
+				"model",
+				"app/models.py"
+			],
+			[
+				"new.html",
+				"templates/movements/new.html"
+			],
+			[
+				"new.",
+				"static/app/js/movements/new.js"
+			],
+			[
+				"new.js",
+				"static/app/js/movements/new.js"
+			],
+			[
+				"mix",
+				"app/mixins.py"
+			],
+			[
+				"to",
+				"templates/reports/today.html"
+			],
+			[
+				"mode",
+				"app/models.py"
+			],
+			[
+				"na",
+				"templates/_common/navbar.html"
+			],
+			[
+				"hom",
+				"templates/home.html"
+			],
+			[
+				"views",
+				"app/views.py"
+			],
+			[
+				"movements",
+				"templates/movements/new.html"
+			],
+			[
+				"listj",
+				"static/app/js/accounts/list.js"
+			],
+			[
+				"url",
+				"app/urls.py"
+			],
+			[
+				"home.js",
+				"static/app/js/home.js"
+			],
+			[
+				"list.",
+				"templates/accounts/list.html"
+			],
+			[
+				"list.js",
+				"static/app/js/accounts/list.js"
+			],
+			[
+				"home",
+				"templates/home.html"
+			],
+			[
+				"se",
+				"personalFinance/settings.py"
+			],
+			[
+				"vi",
+				"app/views.py"
+			],
+			[
+				"tod",
+				"templates/reports/today.html"
+			],
+			[
+				"conf",
+				"docs/conf.py"
+			],
+			[
+				"sett",
+				"personalFinance/settings.py"
+			],
+			[
+				"base.",
+				"templates/base.html"
+			],
+			[
+				"mod",
+				"app/models.py"
+			],
+			[
+				"form",
+				"app/forms.py"
+			],
+			[
+				"new",
+				"templates/accounts/new.html"
+			],
+			[
+				"list",
+				"templates/accounts/list.html"
+			],
+			[
+				"for",
+				"app/forms.py"
+			],
+			[
+				"lo",
+				"templates/login.html"
+			],
+			[
+				"s",
+				"personalFinance/settings.py"
+			],
+			[
+				"set",
+				"personalFinance/settings.py"
+			],
+			[
+				"categories/new",
+				"templates/categories/new.html"
+			],
+			[
+				"home.h",
+				"templates/home.html"
+			],
+			[
+				"categories",
+				"templates/categories/list.html"
+			],
+			[
+				"edit",
+				"templates/movements/edit.html"
+			],
+			[
+				"accounts/list.j",
+				"static/app/js/accounts/list.js"
+			],
+			[
+				"categories/list.",
+				"static/app/js/categories/list.js"
+			],
+			[
+				"categories/l",
+				"templates/categories/list.html"
+			],
+			[
+				"list.css",
+				"static/app/css/categories/list.css"
+			],
+			[
+				".cs",
+				"static/app/css/base.css"
+			],
+			[
+				"home.css",
+				"static/app/css/home.css"
+			],
+			[
+				"fo",
+				"app/forms.py"
+			],
+			[
+				"models",
+				"blog/models.py"
+			],
+			[
+				"urls",
+				"blog/urls.py"
+			],
+			[
+				"home.html",
+				"templates/home.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

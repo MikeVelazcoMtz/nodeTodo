@@ -7,6 +7,7 @@ services:
     command: "npm run-script watch"
     environment:
       - NODE_ENV=development
+      - PORT=3000
       - MONGODB_USER=user
       - MONGODB_PASS=pass
       - SECRET=c8fdcea54d5a
