@@ -8,9 +8,8 @@ services:
     environment:
       - NODE_ENV=development
       - PORT=3000
-      - MONGODB_USER=user
-      - MONGODB_PASS=pass
       - SECRET=c8fdcea54d5a
+      - MONGODB_CONNECTION=mongodb://mongodb:27017/nodeTodo
     volumes:
       - .:/home/app
       - /home/app/node_modules
