@@ -1,6 +1,7 @@
 var express = require('express')
 var jwt = require('jsonwebtoken')
 const User = require('../models/user')
+var PassowrdUtil = require('../util/password')
 
 var router = express.Router()
 
@@ -10,16 +11,17 @@ module.exports = function (secret) {
     req.checkBody('username')
       .exists().withMessage('Username is required')
       .notEmpty().withMessage('Username can\'t be empty')
-      .isAlphanumeric('es-ES').withMessage('Username format is not valid')
       .isLength({min: 3, max: 50}).withMessage('Username must be between 3 and 50 characters long')
 
     req.checkBody('password')
-      .isAlphanumeric('es-ES').withMessage('Username format is not valid')
-      .isLength({min: 3, max: 50}).withMessage('password must be between 3 and 50 characters long')
+      .exists().withMessage('Password is required')
+      .notEmpty().withMessage('Password can\'t be empty')
+      .isLength({min: 3, max: 50}).withMessage('Password must be between 3 and 50 characters long')
 
     req.checkBody('password_confirmation')
-      .isAlphanumeric('es-ES').withMessage('passowrd format is not valid')
-      .isLength({min: 3, max: 50}).withMessage('password must be between 3 and 50 characters long')
+      .exists().withMessage('Password confirmation is required')
+      .notEmpty().withMessage('Password confirmation can\'t be empty')
+      .isLength({min: 3, max: 50}).withMessage('Password confirmation must be between 3 and 50 characters long')
 
     var errors = req.validationErrors()
 
@@ -55,27 +57,25 @@ module.exports = function (secret) {
       res.status(201)
       res.send({message: 'User created successfully', token: token})
     } catch (err) {
-      if (err.name === 'MongoError' && err.code === 11000) {
-        res.status(409).send(new Error('Duplicate Record', [err.message]))
+      if (err.code === 11000) {
+        res.status(409).send({message: 'User already exists.'})
       }
 
       res.status(500).send(err)
     }
   })
 
-  router.post('/login', function (req, res) {
+  router.post('/login', async function (req, res) {
     // Validate user name
     req.checkBody('username')
       .exists().withMessage('Username is required')
       .notEmpty().withMessage('Username can\'t be empty')
-      .isAlphanumeric('es-ES').withMessage('Username format is not valid')
       .isLength({min: 3, max: 50}).withMessage('Username must be between 3 and 50 characters long')
-      .matches('example').withMessage('Username must match example')// Just for testing
 
     req.checkBody('password')
-      .isAlphanumeric('es-ES').withMessage('Username format is not valid')
-      .isLength({min: 3, max: 50}).withMessage('password must be between 3 and 50 characters long')
-      .matches('123').withMessage('Username must match 123') // Just for testing
+      .exists().withMessage('Password is required')
+      .notEmpty().withMessage('Password can\'t be empty')
+      .isLength({min: 3, max: 50}).withMessage('Password must be between 3 and 50 characters long')
 
     var errors = req.validationErrors()
 
@@ -84,18 +84,26 @@ module.exports = function (secret) {
       res.send(errors)
     } else {
       var username = req.sanitize('username').trim()
+      var password = req.sanitize('password').toString()
+
+      try {
+        var user = await User.findOne({userName: username})
+      } catch (err) {
+        res.status(500).send({message: 'Ocurred an error while trying to get user: ' + err.message})
+      }
+
+      if (!PassowrdUtil.compare(password, user.password)) {
+        res.status(400).send({message: 'Your password is incorrect'})
+      }
+
       var token = jwt.sign({
         user: username
       }, secret, {
         expiresIn: '1d'
       })
 
-      res.send(token)
+      res.send({token: token, user: user._id, userName: user.userName})
     }
-  })
-
-  router.get('/protected_url', function (req, res) {
-    res.send('Welcome to the protected URL :D!!!')
   })
 
   return router
