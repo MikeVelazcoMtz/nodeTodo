@@ -7,6 +7,7 @@ var expressJWT = require('express-jwt')
 var validator = require('express-validator')
 var statusMiddleware = require('./middlewares/statusPages')
 var indexRouter = require('./routes/index')
+var itemRouter = require('./routes/item')
 var mongoose = require('mongoose')
 
 const JWT_SECRET = process.env.SECRET || 'MY_SECRET'
@@ -24,6 +25,7 @@ app.use(expressJWT({secret: JWT_SECRET, expiresIn: '1d'}).unless({path: ['/sign_
 
 // routes
 app.use('/', indexRouter(JWT_SECRET))
+app.use('/item', itemRouter())
 
 // Custom middlewares
 app.use(statusMiddleware['404'])

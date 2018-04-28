@@ -2,7 +2,6 @@ var mongoose = require('mongoose')
 var Schema = mongoose.Schema
 
 var listItemSchema = Schema({
-  _id: Schema.Types.ObjectId,
   description: {
     type: String,
     required: true

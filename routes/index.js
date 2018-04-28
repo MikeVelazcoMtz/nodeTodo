@@ -49,7 +49,8 @@ module.exports = function (secret) {
       await user.save()
 
       var token = jwt.sign({
-        user: username
+        user: username,
+        id: user._id
       }, secret, {
         expiresIn: '1d'
       })
@@ -92,12 +93,21 @@ module.exports = function (secret) {
         res.status(500).send({message: 'Ocurred an error while trying to get user: ' + err.message})
       }
 
-      if (!PassowrdUtil.compare(password, user.password)) {
-        res.status(400).send({message: 'Your password is incorrect'})
+      if (user === null) {
+        res.status(400).send({message: `User ${username} does not exist`})
+      } else {
+        try {
+          if (!PassowrdUtil.compare(password, user.password)) {
+            res.status(400).send({ message: 'Your password is incorrect' })
+          }
+        } catch (err) {
+          res.status(500).send({ message: 'Ocurred an error while trying to validete password: ' + err.message })
+        }
       }
 
       var token = jwt.sign({
-        user: username
+        user: username,
+        id: user._id
       }, secret, {
         expiresIn: '1d'
       })

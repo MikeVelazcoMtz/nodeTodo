@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"passwo",
+				"password_confirmation"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
 				"for",
 				"for\tfor (…) {…} (Improved Native For-Loop)"
 			],
@@ -231,6 +239,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes/index.js",
+			"settings":
+			{
+				"buffer_size": 2799,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/user.js",
+			"settings":
+			{
+				"buffer_size": 972,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".jshintrc",
+			"settings":
+			{
+				"buffer_size": 39,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -244,11 +279,47 @@
 		"selected_items":
 		[
 			[
-				"ins",
-				"Package Control: Install Package"
+				"l",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
 			],
 			[
 				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"npm",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -288,10 +359,6 @@
 				"Git: Push"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"git ad",
 				"Git: Add..."
 			],
@@ -314,14 +381,6 @@
 			[
 				"git: sta",
 				"Git: Status"
-			],
-			[
-				"package",
-				"Package Control: Remove Package"
-			],
-			[
-				"git",
-				"GitX: Open GitX"
 			],
 			[
 				"gett",
@@ -358,13 +417,9 @@
 			[
 				"theme",
 				"SublimeLinter: Choose Gutter Theme"
-			],
-			[
-				"lint",
-				"SublimeLinter: Lint This View"
 			]
 		],
-		"width": 390.0
+		"width": 542.0
 	},
 	"console":
 	{
@@ -384,22 +439,35 @@
 	},
 	"expanded_folders":
 	[
-		"/home/miguelangel/docker/nodeTodo"
+		"/home/miguelangel/docker/nodeTodo",
+		"/home/miguelangel/docker/nodeTodo/models"
 	],
 	"file_history":
 	[
+		"/home/miguelangel/docker/nodeTodo/app.js",
+		"/home/miguelangel/docker/nodeTodo/.jslintrc",
+		"/home/miguelangel/docker/nodeTodo/Dockerfile",
+		"/home/miguelangel/docker/nodeTodo/bin/www",
+		"/home/miguelangel/docker/nodeTodo/docker-compose.yml",
+		"/home/miguelangel/docker/nodeTodo/.gitignore",
+		"/home/miguelangel/docker/nodeTodo/README.md",
+		"/home/miguelangel/docker/nodeTodo/middlewares/statusPages.js",
+		"/home/miguelangel/docker/nodeTodo/routes/index.js",
+		"/home/miguelangel/docker/nodeTodo/package.json",
+		"/home/miguelangel/docker/nodeTodo/node_modules/express-validator/lib/express_validator.js",
+		"/home/miguelangel/docker/nodePluralSight/library/src/routes/authorRoutes.js",
+		"/home/miguelangel/docker/nodePluralSight/library/app.js",
+		"/home/miguelangel/docker/nodePluralSight/library/src/routes/adminRoutes.js",
+		"/home/miguelangel/docker/nodeTodo/nodeTodo.sublime-workspace",
 		"/home/miguelangel/docker/nodeTodo/nodeTodo.sublime-project",
 		"/home/miguelangel/docker/react-start/index.js",
 		"/home/miguelangel/docker/react-start/src/indes.js",
 		"/home/miguelangel/docker/react-start/src/index.css",
 		"/home/miguelangel/docker/react-start/src/App.js",
 		"/home/miguelangel/docker/nodePluralSight/docker-compose.yml",
-		"/home/miguelangel/docker/nodePluralSight/library/app.js",
-		"/home/miguelangel/docker/nodePluralSight/library/src/routes/adminRoutes.js",
 		"/home/miguelangel/docker/nodePluralSight/library/src/routes/bookRoutes.js",
 		"/home/miguelangel/docker/nodePluralSight/.gitignore",
 		"/home/miguelangel/docker/nodePluralSight/README.md",
-		"/home/miguelangel/docker/nodePluralSight/library/src/routes/authorRoutes.js",
 		"/home/miguelangel/docker/nodePluralSight/library/src/views/book.ejs",
 		"/home/miguelangel/docker/nodePluralSight/library/src/views/books.ejs",
 		"/home/miguelangel/docker/nodePluralSight/library/src/views/index.ejs",
@@ -500,9 +568,10 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"validator"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -520,8 +589,109 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1601,
+								1601
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.28.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 882.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "models/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"SL.47.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".jshintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/Materialize/Langs/npm JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -531,7 +701,7 @@
 	},
 	"input":
 	{
-		"height": 50.0
+		"height": 78.0
 	},
 	"layout":
 	{
@@ -594,6 +764,54 @@
 		"selected_items":
 		[
 			[
+				"app",
+				"app.js"
+			],
+			[
+				"inde",
+				"routes/index.js"
+			],
+			[
+				"www",
+				"bin/www"
+			],
+			[
+				"docker-",
+				"docker-compose.yml"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"doc",
+				"Dockerfile"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"stat",
+				"middlewares/statusPages.js"
+			],
+			[
+				".json",
+				"package.json"
+			],
+			[
+				"index.js",
+				"routes/index.js"
+			],
+			[
+				"statu",
+				"middlewares/statusPages.js"
+			],
+			[
 				"ad",
 				"library/src/routes/adminRoutes.js"
 			],
@@ -604,18 +822,6 @@
 			[
 				".",
 				".gitignore"
-			],
-			[
-				"app",
-				"library/app.js"
-			],
-			[
-				"docker-",
-				"docker-compose.yml"
-			],
-			[
-				"inde",
-				"library/src/views/index.ejs"
 			],
 			[
 				"pa",
@@ -650,10 +856,6 @@
 				"library/bower.json"
 			],
 			[
-				"doc",
-				"Dockerfile"
-			],
-			[
 				"do",
 				"Dockerfile"
 			],
@@ -664,10 +866,6 @@
 			[
 				"dock",
 				"Dockerfile"
-			],
-			[
-				"",
-				"docker-compose.yml"
 			],
 			[
 				"django.po",
@@ -921,7 +1119,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 275.0,
 	"status_bar_visible": true,
 	"template_settings":

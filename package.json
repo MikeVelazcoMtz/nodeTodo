@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "watch": "./node_modules/nodemon/bin/nodemon.js npm start"
+    "watch": "./node_modules/nodemon/bin/nodemon.js npm start",
+    "debug": "./node_modules/nodemon/bin/nodemon.js --inspect=0.0.0.0:9229 ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^2.0.1",

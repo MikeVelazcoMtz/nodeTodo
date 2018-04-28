@@ -1,0 +1,7 @@
+{
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "[javascript]": {
+        "editor.tabSize": 2,
+    }
+}

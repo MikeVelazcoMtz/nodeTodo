@@ -4,7 +4,7 @@ services:
     container_name: node
     restart: always
     build: .
-    command: "npm run-script watch"
+    command: "npm run-script debug"
     environment:
       - NODE_ENV=development
       - PORT=3000
@@ -16,8 +16,10 @@ services:
 
     expose:
       - "3000"
+      - "9229"
     ports:
       - "3000:3000"
+      - "9229:9229"
     links:
       - mongodb
     depends_on:

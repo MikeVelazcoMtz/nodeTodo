@@ -3,9 +3,17 @@ const SALT_WORK_FACTOR = 10
 
 module.exports = {
   hash: function (password) {
-    return bcrypt.hashSync(password, SALT_WORK_FACTOR)
+    try {
+      return bcrypt.hashSync(password, SALT_WORK_FACTOR)
+    } catch (err) {
+      return false
+    }
   },
   compare: function (password, hashed) {
-    return bcrypt.compareSync(password, hashed)
+    try {
+      return bcrypt.compareSync(password, hashed)
+    } catch (err) {
+      return false
+    }
   }
 }
